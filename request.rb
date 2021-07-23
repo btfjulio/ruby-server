@@ -1,5 +1,5 @@
 class Request
-  attr_reader :method, :path, :headers, :body
+  attr_reader :method, :path, :headers, :body, :query
 
   def initialize(request)
     lines = request.lines
