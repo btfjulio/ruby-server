@@ -5,3 +5,4 @@ Pure Ruby Custom HTTP server.
 - start new threads.
 - process the connections.
 - serves up files the user asked for.
+- supports rack applications.
